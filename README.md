@@ -1,5 +1,3 @@
-# Supa
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a//dev/null b/python/README.md
 index 0000000000000000000000000000000000000000..13f87fa71ab73986a856dc6ea8a57d41fbc6c1d5 100644
 --- a//dev/null
@@ -38,6 +36,3 @@ index 0000000000000000000000000000000000000000..13f87fa71ab73986a856dc6ea8a57d41
 +4. Use the sidebar in the app to provide your Supabase URL and keys, then click **Initialize chat table** to create the `chat_table`. Afterwards you can send messages and view them in the UI.
 +
 +> **Security tip:** Only run the app in a secure environment when using the service role key because it has elevated privileges.
- 
-EOF
-)
